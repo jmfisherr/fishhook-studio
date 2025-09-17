@@ -1,0 +1,46 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-account",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1752781509a3a7742b": {
+      "type": "apps",
+      "blocks": {
+        "panagora_raffle_list_customer_raffles_Xi8T3j": {
+          "type": "shopify://apps/panagora-raffle/blocks/list-customer-raffles/1e5a1013-c1b5-4af4-b663-f223444dc80b",
+          "settings": {
+            "css_enabled": true,
+            "fragment_heading": "<h2>Your raffle signups</h2>",
+            "fragment_no_raffles": "<p>You haven't signed up for any raffles yet.</p>",
+            "fragment_fetch_problem": "<p>We couldn't get your signups at the moment. Please come back later.</p>",
+            "fragment_refresh_hint": "<p>Refresh this page in a few minutes if you've just signed up for a raffle and it isn't listed yet.</p>",
+            "fragment_loader": "<div class=\"loader-wrapper\">\n<span class=\"loader\"></span>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "panagora_raffle_list_customer_raffles_Xi8T3j"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1752781509a3a7742b"
+  ]
+}
