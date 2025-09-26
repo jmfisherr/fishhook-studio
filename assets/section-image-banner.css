@@ -317,7 +317,7 @@
   }
 
   .banner__content--bottom-center {
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
   }
 
